@@ -12,5 +12,7 @@ VMW_bootbank_nvme-community_1.0.1.0-1vmw.670.0.0.8169922.vib (nvme drivers)
 
 VMW_bootbank_vmkusb-nic-fling_2.1-6vmw.670.2.48.39203948.vib (usb nic drivers)
 
+sata-xahci-1.42-1.x86_64.vib (asm1166 or similar SATA cards)
+
 Special: replaced original esx-ui-1.43.10.vib (with bug in WebHost Console that breaks attaching disks to VMs: https://community.broadcom.com/vmware-cloud-foundation/discussion/esx-ui-211-impossible-add-existing-vmdk)
          with esx-ui-1.33.7.vib, to restore functionality
